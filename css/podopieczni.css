@@ -32,8 +32,8 @@
 }
 
 .main .cards .card:hover {
-  -webkit-transform: scale(125%);
-          transform: scale(125%);
+  -webkit-transform: scale(115%);
+          transform: scale(115%);
 }
 
 .main .cards .card .card-img {
