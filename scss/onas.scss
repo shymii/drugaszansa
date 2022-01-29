@@ -1,0 +1,17 @@
+// @font-face {
+//     font-family: Proxima;
+//     src: url('fonts/Proxima-Nova-Font.otf');
+// }
+
+.main {
+    width: 80%;
+    margin: 3em auto;
+    .section {
+        h2 {
+            font-family: Proxima;
+        }
+        p {
+            font-family: Proxima;
+        }
+    }
+}

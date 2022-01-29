@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,QAAQ;CASnB;;AAXD,AAIQ,KAJH,CAGD,QAAQ,CACJ,EAAE,CAAC;EACC,WAAW,EAAE,OAAO;CACvB;;AANT,AAOQ,KAPH,CAGD,QAAQ,CAIJ,CAAC,CAAC;EACE,WAAW,EAAE,OAAO;CACvB",
+    "sources": [
+        "../scss/onas.scss"
+    ],
+    "names": [],
+    "file": "onas.css"
+}
