@@ -1,0 +1,29 @@
+.main {
+    width: 80%;
+    margin: 3em auto;
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        .form-row {
+            margin: auto;
+            flex-basis: 60%;
+            margin-top: 2em;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            label {
+                flex-basis:30%;
+            }
+            input {
+                flex-basis: 40%;
+            }
+            textarea {
+                flex-basis: 40%;
+            }
+        }
+    }
+}

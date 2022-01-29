@@ -1,0 +1,46 @@
+.main {
+  width: 80%;
+  margin: 3em auto;
+}
+
+.main h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.main .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .form .form-row {
+  margin: auto;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.main .form .form-row label {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.main .form .form-row input {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.main .form .form-row textarea {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+/*# sourceMappingURL=kontakt.css.map */
