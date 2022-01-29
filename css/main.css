@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -95,6 +96,9 @@
   color: #222;
   -webkit-transition: color .5s ease;
   transition: color .5s ease;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .container .header .header-nav .header-nav-list .header-nav-item .header-nav-link:hover {
@@ -179,6 +183,9 @@
   color: #222;
   -webkit-transition: color .5s ease;
   transition: color .5s ease;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .container .footer .footer-right .footer-nav .footer-nav-list .footer-nav-item .footer-nav-link:hover {
@@ -190,5 +197,10 @@
   margin: 2em 0;
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
+}
+
+.container .footer .footer-copy p {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
