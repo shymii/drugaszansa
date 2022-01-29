@@ -1,17 +1,44 @@
-// @font-face {
-//     font-family: Proxima;
-//     src: url('fonts/Proxima-Nova-Font.otf');
-// }
-
 .main {
     width: 80%;
     margin: 3em auto;
-    .section {
+    .who {
         h2 {
-            font-family: Proxima;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
         }
         p {
-            font-family: Proxima;
+            width: 80%;
+            margin: 2em auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+    .people {
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        .person-card {
+            width: 60%;
+            margin: auto;
+            margin-top: 3em;
+            display: flex;
+            .person-pic {
+                flex-basis: 20%;
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                }
+            }
+            .person-desc {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .person-desc-text {
+                    width: 80%;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
         }
     }
 }

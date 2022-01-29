@@ -3,11 +3,56 @@
   margin: 3em auto;
 }
 
-.main .section h2 {
-  font-family: Proxima;
+.main .who h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-.main .section p {
-  font-family: Proxima;
+.main .who p {
+  width: 80%;
+  margin: 2em auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main .people h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.main .people .person-card {
+  width: 60%;
+  margin: auto;
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .people .person-card .person-pic {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.main .people .person-card .person-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.main .people .person-card .person-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .people .person-card .person-desc .person-desc-text {
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
 }
 /*# sourceMappingURL=onas.css.map */

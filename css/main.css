@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: Proxima;
   src: url("fonts/Proxima-Nova-Font.otf");
@@ -154,6 +154,7 @@
 }
 
 .container .footer .footer-left .footer-left-text p {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding-top: .2em;
   padding-left: 1.5em;
@@ -194,6 +195,24 @@
 }
 
 .container .footer .footer-right .footer-nav .footer-nav-list .footer-nav-item .footer-nav-link:hover {
+  color: #5880bf;
+}
+
+.container .footer .footer-right .footer-social {
+  text-align: end;
+  padding: .7em;
+  margin-right: 1em;
+}
+
+.container .footer .footer-right .footer-social a {
+  text-decoration: none;
+  color: #222;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
+  margin-left: .3em;
+}
+
+.container .footer .footer-right .footer-social a:hover {
   color: #5880bf;
 }
 
