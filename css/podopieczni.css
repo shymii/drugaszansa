@@ -1,0 +1,64 @@
+.main {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.main h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.main .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: gap;
+}
+
+.main .cards .card {
+  margin-top: 3em;
+  width: 50%;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.main .cards .card:hover {
+  -webkit-transform: scale(125%);
+          transform: scale(125%);
+}
+
+.main .cards .card .card-img {
+  width: 100%;
+}
+
+.main .cards .card .card-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1em;
+}
+
+.main .cards .card .card-heading {
+  width: 100%;
+}
+
+.main .cards .card .card-heading h3 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.main .cards .card .card-desc p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=podopieczni.css.map */
