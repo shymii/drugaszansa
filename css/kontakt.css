@@ -1,17 +1,6 @@
 .main {
   width: 80%;
   margin: 3em auto;
-}
-
-.main h2 {
-  font-family: 'Amatic SC', cursive;
-  font-weight: bold;
-  font-size: 2.7em;
-  width: 100%;
-  text-align: center;
-}
-
-.main .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +8,71 @@
       flex-wrap: wrap;
 }
 
-.main .form .form-row {
+.main h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2.7em;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+}
+
+.main .contact {
+  margin-top: 4em;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main .contact h3 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.main .contact p {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+.main .contact .fa-envelope {
+  margin-right: .3em;
+}
+
+.main .contact-form {
+  margin-top: 4em;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.main .contact-form h3 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.main .contact-form .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .contact-form .form .form-row {
   margin: auto;
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
@@ -27,23 +80,87 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  text-align: center;
 }
 
-.main .form .form-row label {
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+.main .contact-form .form .form-row label {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: .2em;
 }
 
-.main .form .form-row input {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+.main .contact-form .form .form-row input {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  padding: .5em;
+  border: none;
+  border: 1px solid #5880bf;
+  border-radius: .4em;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-.main .form .form-row textarea {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+.main .contact-form .form .form-row textarea {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  padding: .5em;
+  border: none;
+  border: 1px solid #5880bf;
+  border-radius: .4em;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  resize: none;
+}
+
+.main .contact-form .form .form-row button {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #5880bf;
+  padding: 1em 3em;
+  -webkit-transition: background .5s ease, border-radius .5s ease;
+  transition: background .5s ease, border-radius .5s ease;
+}
+
+.main .contact-form .form .form-row button:hover {
+  background: #5880bf;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
+.main .contact-form .alert {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: #64e87a;
+  border-radius: 1em;
+  -webkit-transition: opacity .5s ease, display .5s ease;
+  transition: opacity .5s ease, display .5s ease;
+}
+
+.main .contact-form .alert .alert-box {
+  padding: 4em;
+  position: relative;
+}
+
+.main .contact-form .alert .alert-box .alert-msg {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+
+.main .contact-form .alert .alert-box .alert-close {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  cursor: default;
 }
 /*# sourceMappingURL=kontakt.css.map */
