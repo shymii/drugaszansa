@@ -35,6 +35,15 @@
   width: 60%;
   margin: auto;
   margin-top: 3em;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.main .people .cards .person-card:hover {
+  -webkit-transform: scale(115%);
+          transform: scale(115%);
 }
 
 .main .people .cards .person-card .person-pic {
@@ -58,6 +67,10 @@
 }
 
 .main .people .cards .person-card .person-desc .person-desc-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main .people .cards .person-card .person-desc .person-desc-func {
   font-family: 'Montserrat', sans-serif;
 }
 /*# sourceMappingURL=onas.css.map */
